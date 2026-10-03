@@ -98,18 +98,18 @@ If you don't like the size of your thumbnails you have set, there are several pl
 
 Generally the two files to edit is the index.php and the single.php, however some layouts are auto-generated with code and those you will need to seek advice out from their designers, the makers of those particular themes.
 
-There are other "action" area's that you can put into your theme, not just the comic-area.  
+There are other "action" areas that you can put into your theme, not just the comic-area.  
 
 
 `do_action('comic_area');` - This is for the area you want your comic displayed on the home page and single pages.
 
 `do_action('comic_blog_area');` - This is for the blog portion of the comic for the home page only.
 
-`do_action('comic-mini-navigation');` - For menubar's to have mini navigation (prev/next) in them.
+`do_action('comic-mini-navigation');` - For menubars to have mini navigation (prev/next) in them.
 
 `do_action('comic-post-info');` - For inside of the single/archive/search post pages posts, showing more comic info.
 
-`do_action('comic-post-extras');` - Inside the individual post loop, preferably at the bottom after the post div.  Show's a list of related comics.
+`do_action('comic-post-extras');` - Inside the individual post loop, preferably at the bottom after the post div.  Shows a list of related comics.
 
 `do_action('comic-transcript');` - generally used under the_content() to display the transcript of the post, if you do not want to use the [transcript] shortcode, this will make it so that it always displays if there is a transcript
 
@@ -128,7 +128,7 @@ Go to your settings -> permalinks and just click save, the wp_rewrite will refre
 
 = Where is Comic Easel's navigation widget? =
 
-The comic navigation widget is only seen if you have the comic sidebar's enabled; even then it only works in the comic sidebars themself, nowhere else.
+The comic navigation widget is only seen if you have the comic sidebars enabled; even then it only works in the comic sidebars themself, nowhere else.
 
 
 == Screenshots ==
@@ -191,7 +191,7 @@ The comic navigation widget is only seen if you have the comic sidebar's enabled
 * updated to correspond to WordPress 4.5 release
 
 = 1.9.10 =
-* Added Content Warning toggle which blur's individual comics in the comic editor (user can click to unblur) courtesy Ryan G.
+* Added Content Warning toggle which blurs individual comics in the comic editor (user can click to unblur) courtesy Ryan G.
 * Added URL referrer ability to comics that makes it so that you can choose for comics only to be visible if they clicked a link from some place else
 * @egypturnash - added option to render chapter dropdown as list of links
 * @eypturnash - added highlighting of current chapter to list
@@ -261,7 +261,7 @@ The comic navigation widget is only seen if you have the comic sidebar's enabled
 * Rewrote the code to allow chapters in the URL using a different method
 * removed the 'click to view larger image' text when lightbox is enabled
 * added a new option to the comic editor in the toggle box, 'comic has map?' for those who want to make image maps for their comics
-* moved an option on the navigation tab to it's appropriate location in the default nav section
+* moved an option on the navigation tab to its appropriate location in the default nav section
 * allow keyboard navigation jquery to work with the navigation widget and not just default nav
 
 
